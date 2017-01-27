@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: YuGothic, "遊ゴシック", "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
+    background-color: #ddd;
+    font-size: 14px;
+}
+
+header {
+    background-image: url("stars.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+}
+
+#logo {
+    padding: 20px 0;
+    text-align: center;
+}
+
+#logo img {
+    max-width: 120px;
+    border: solid 5px #fff;
+    border-radius: 30%;
+}
+
+#logo h1 {
+    letter-spacing: 0.15em;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+}
+
+#logo h2 {
+    letter-spacing: 0.15em;
+    color: #fff;
+    font-size: 16px;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.container {
+    max-width: 800px;
+    margin: -100px auto 0;
+    background-color: #fff;
+    padding: 30px 20px;
+    box-shadow: 1px 1px 1px #000;
+}
+
+.container2 {
+    max-width: 800px;
+    margin: 70px auto 0;
+    background-color: #fff;
+    padding: 30px 20px;
+    box-shadow: 1px 1px 1px #000;
+}
+
+
+section {
+    padding: 30px 20px;
+}
+
+span. {
+    color: purple;
+}
+
+section h2 {
+    padding: 10px 0px 20px 0px;
+    text-align: center;
+    letter-spacing: 0.15em;
+    color: #0A0042;
+}
+
+
+.applications {
+    padding: 20px 0;
+    text-align: center;
+    height: auto;
+    overflow: hidden;
+}
+
+
+.applications img {
+    max-width: 90px;
+    border-radius: 80%;
+    float: left;
+    margin-right: 1em;
+}
+
+.applications p {
+    text-align: left;
+}
+
+
+
+ul {
+    margin: 30px 0 0 0;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    margin: 0 70px;
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #999;
+    font-weight: bold;
+}
+
+nav ul li a.selected {
+    color: #000;
+}
+
+
+footer {
+    padding: 100px 0 20px 0;
+    font-size: 90%;
+    text-align: center;
+    color: #666;
+}
